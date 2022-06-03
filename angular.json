@@ -31,9 +31,27 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "admin-pro/src/assets/libs/apexcharts/dist/apexcharts.css",
+              "admin-pro/src/assets/libs/jvectormap/jquery-jvectormap.css",
+              "admin-pro/dist/css/style.min.css",
               "src/styles.less"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "admin-pro/dist/js/app.min.js",
+              "admin-pro/dist/js/app.init.js",
+              "admin-pro/dist/js/app-style-switcher.js",
+              "admin-pro/src/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js",
+              "admin-pro/src/assets/extra-libs/sparkline/sparkline.js",
+              "admin-pro/dist/js/waves.js",
+              "admin-pro/dist/js/sidebarmenu.js",
+              "admin-pro/dist/js/feather.min.js",
+              "admin-pro/dist/js/custom.min.js",
+              "admin-pro/src/assets/libs/apexcharts/dist/apexcharts.min.js",
+              "admin-pro/dist/js/pages/dashboards/dashboard2.js"
+            ]
           },
           "configurations": {
             "production": {
